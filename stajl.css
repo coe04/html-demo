@@ -1,0 +1,19 @@
+
+.yttre > li {display: inline;
+       
+        }
+
+
+.inre >li {margin-left: 25px; 
+            list-style: none;
+                display: none;
+             
+            }
+    
+
+
+ #hovra:hover .inre {display: block;
+         background-color: beige;}
+
+.hovra:hover {border: 1px solid black;
+                 }
