@@ -1,0 +1,39 @@
+.bakgrund {background-color:grey;}
+
+* {
+margin: 0;
+
+    border-radius: 4px;
+}
+
+header, footer {background-color: #FFEDB9;
+flex: 1;
+height: 10vh;
+margin: 2px;}
+
+nav, aside {background-color: #CBCCFF;
+flex:1;
+height: 80vh;
+margin: 2px;}
+article {background-color: #DEDD84;
+flex:4;
+height: 80vh;
+margin: 2px;}
+
+.container {display: flex;}
+
+.container > * {padding: 4px;}
+
+@media screen and (max-width: 800px){
+
+.container{
+  flex-direction: column;
+   
+}
+    article {order:-1;
+    height: 72vh;}
+    
+    nav,aside,header,footer{height: 7vh;}
+    
+
+}
