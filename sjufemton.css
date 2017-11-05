@@ -1,8 +1,0 @@
-th:nth-child(even) {height:200px;
-     width: 200px;
-    background-color: black;
-     border: 1px solid blue; }
-td:nth-child(odd) {height: 200px;
-     width: 200px;
-      background-color: black;
-       border:1px solid pink;}
