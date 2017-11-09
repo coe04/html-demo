@@ -1,0 +1,41 @@
+
+
+body {background-image: url("https://static.pexels.com/photos/443356/pexels-photo-443356.jpeg");
+ background-size: 100% ;   
+}
+#quote  {color:blue;
+font-family: 'Shadows Into Light', cursive;
+    font-size: 26px;
+display: table;
+width:200px;
+padding: 50px 0px 40px 50px;}
+
+.tab {display: table;}
+
+ul {color:white;
+padding: 0px;
+margin: 0px;}
+
+
+a {font-size: 1em;
+    display: table-cell;
+  text-decoration: none;
+padding: 0px 50px;}
+
+a > p {display: table-cell;
+width:300px;
+padding: 20px 0px 20px 0px;
+}
+
+#Linkedin {position: fixed;
+bottom:30px;
+margin-left:40%}
+
+.about {color:red;}
+
+
+
+
+
+    
+

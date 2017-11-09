@@ -1,0 +1,73 @@
+.bakgrund {background-image: url("https://static.pexels.com/photos/443356/pexels-photo-443356.jpeg");
+ background-size: cover;
+    background-repeat: no-repeat;
+}
+header {font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    text-align: center;
+        
+    background-color: rgba(12, 15, 55, 0.8);
+   
+}
+
+* {
+margin: 0;
+    border-radius: 4px;
+}
+
+
+header, footer {
+flex:1; 
+height: 6vh;
+margin: 2px;}
+footer {text-align: center;}
+header, nav, nav *{color:burlywood;}
+
+nav {background-color: rgba(72, 94, 158, 0.3);}
+
+nav, aside {  
+flex:1;
+height: 80vh;
+margin: 2px;}
+
+article {
+flex:4;
+height: 80vh;
+margin: 2px;
+}
+
+.container {display: flex;
+}
+nav {display: flex;
+flex-direction: column;}
+
+nav > * {flex:1;
+padding-top:10px;}
+
+
+
+.container > * {padding: 10px;
+}
+
+nav p {font-family: 'Poiret One', cursive;
+font-size: 15px;
+}
+
+li {list-style-type: none;
+}
+
+@media screen and (max-width: 800px){
+
+.container{
+  flex-direction: column;
+   
+}
+    article {order:-1;
+    height: 72vh;}
+    
+    nav,aside,header,footer{height: 7vh;}
+    
+
+}
+
+
